@@ -1,7 +1,7 @@
 name: kakao_chatroom_list_lego
 description: "Kakao Chatroom List Page Lego"
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/lego
+repository: https://github.com/flutter-lego/kakao_chatroom_list_lego
 
 version: 1.0.0
 
