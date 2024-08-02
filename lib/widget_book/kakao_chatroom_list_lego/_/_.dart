@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:june_flow_util/june_flow_util.dart';
+import 'package:styled_widget/styled_widget.dart';
 
-import '../../../../../../../../../../../main.dart';
 import 'item.dart';
 
 class NewView extends StatefulWidget {
@@ -48,5 +49,7 @@ class _NewViewState extends State<NewView> {
 }
 
 main() async {
-  return buildApp(home: NewView());
+  return runApp(MaterialApp(
+    home: NewView(),
+  ));
 }

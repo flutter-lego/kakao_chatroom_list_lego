@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../../../../../../../../../../main.dart';
+import 'package:styled_widget/styled_widget.dart';
 
 class BadgeTextView extends StatefulWidget {
   BadgeTextView(
@@ -109,11 +108,4 @@ class _BadgeTextViewState extends State<BadgeTextView> {
       ).width(30);
     }
   }
-}
-
-main() async {
-  return buildApp(home: BadgeTextView(
-    num: 7,
-    size: 10,
-  ));
 }

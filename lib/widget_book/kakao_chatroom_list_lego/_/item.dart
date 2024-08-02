@@ -1,8 +1,9 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
+import 'package:styled_widget/styled_widget.dart';
 
-import '../../../../../../../../../../../main.dart';
 import 'badge_text.dart';
 
 class ItemView extends StatefulWidget {
@@ -60,12 +61,4 @@ class _ItemViewState extends State<ItemView> {
       ],
     ).padding(horizontal: 15, vertical: 10);
   }
-}
-
-main() async {
-  return buildApp(home: ItemView(
-    name: "Kim Toss",
-    imageUrl: "https://june-arch-asset.pages.dev/winter.webp",
-    stateMessage: "Toss Bank",
-  ));
 }
